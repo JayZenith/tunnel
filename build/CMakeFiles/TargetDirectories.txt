@@ -1,0 +1,7 @@
+/home/jayz/Desktop/tunnel/build/CMakeFiles/tunnel.dir
+/home/jayz/Desktop/tunnel/build/CMakeFiles/edit_cache.dir
+/home/jayz/Desktop/tunnel/build/CMakeFiles/rebuild_cache.dir
+/home/jayz/Desktop/tunnel/build/CMakeFiles/list_install_components.dir
+/home/jayz/Desktop/tunnel/build/CMakeFiles/install.dir
+/home/jayz/Desktop/tunnel/build/CMakeFiles/install/local.dir
+/home/jayz/Desktop/tunnel/build/CMakeFiles/install/strip.dir
