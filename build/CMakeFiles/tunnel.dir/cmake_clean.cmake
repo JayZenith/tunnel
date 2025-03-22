@@ -1,11 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tunnel.dir/link.d"
-  "CMakeFiles/tunnel.dir/src/example.cpp.o"
-  "CMakeFiles/tunnel.dir/src/example.cpp.o.d"
+  "CMakeFiles/tunnel.dir/src/calculator.cpp.o"
+  "CMakeFiles/tunnel.dir/src/calculator.cpp.o.d"
   "CMakeFiles/tunnel.dir/src/main.cpp.o"
   "CMakeFiles/tunnel.dir/src/main.cpp.o.d"
-  "tunnel"
-  "tunnel.pdb"
+  "libtunnel.a"
+  "libtunnel.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

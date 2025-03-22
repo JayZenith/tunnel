@@ -9,20 +9,20 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(include)
 
 # Add executable
-add_executable(tunnel src/main.cpp src/example.cpp)
-
+# add_executable(tunnel src/main.cpp src/example.cpp)
+add_library(tunnel src/main.cpp src/calculator.cpp)
 
 # Set compiler warnings
-if(MSVC)
-  target_compile_options(tunnel PRIVATE /W4)
-else()
-  target_compile_options(tunnel PRIVATE -Wall -Wextra -Wpedantic)
-endif()
+# if(MSVC)
+#   target_compile_options(tunnel PRIVATE /W4)
+# else()
+#   target_compile_options(tunnel PRIVATE -Wall -Wextra -Wpedantic)
+# endif()
 
 # Enable testing
-# enable_testing()
-# add_subdirectory(tests)
+enable_testing()
+add_subdirectory(tests)
 
 # Create installable package
-install(TARGETS tunnel DESTINATION bin)
-install(DIRECTORY include/ DESTINATION include)
+# install(TARGETS tunnel DESTINATION bin)
+# install(DIRECTORY include/ DESTINATION include)

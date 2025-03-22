@@ -64,19 +64,41 @@ CMAKE_BINARY_DIR = /home/jayz/Desktop/tunnel/build
 
 # The main recursive "all" target.
 all: CMakeFiles/tunnel.dir/all
+all: tests/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/tunnel.dir/codegen
+codegen: tests/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/tunnel.dir/clean
+clean: tests/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory tests
+
+# Recursive "all" directory target.
+tests/all: tests/CMakeFiles/my_tests.dir/all
+.PHONY : tests/all
+
+# Recursive "codegen" directory target.
+tests/codegen: tests/CMakeFiles/my_tests.dir/codegen
+.PHONY : tests/codegen
+
+# Recursive "preinstall" directory target.
+tests/preinstall:
+.PHONY : tests/preinstall
+
+# Recursive "clean" directory target.
+tests/clean: tests/CMakeFiles/my_tests.dir/clean
+.PHONY : tests/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tunnel.dir
@@ -85,7 +107,7 @@ clean: CMakeFiles/tunnel.dir/clean
 CMakeFiles/tunnel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnel.dir/build.make CMakeFiles/tunnel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnel.dir/build.make CMakeFiles/tunnel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jayz/Desktop/tunnel/build/CMakeFiles --progress-num=1,2,3 "Built target tunnel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jayz/Desktop/tunnel/build/CMakeFiles --progress-num=4,5,6 "Built target tunnel"
 .PHONY : CMakeFiles/tunnel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,6 +130,37 @@ CMakeFiles/tunnel.dir/codegen:
 CMakeFiles/tunnel.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnel.dir/build.make CMakeFiles/tunnel.dir/clean
 .PHONY : CMakeFiles/tunnel.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/my_tests.dir
+
+# All Build rule for target.
+tests/CMakeFiles/my_tests.dir/all: CMakeFiles/tunnel.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_tests.dir/build.make tests/CMakeFiles/my_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_tests.dir/build.make tests/CMakeFiles/my_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jayz/Desktop/tunnel/build/CMakeFiles --progress-num=1,2,3 "Built target my_tests"
+.PHONY : tests/CMakeFiles/my_tests.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/my_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jayz/Desktop/tunnel/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/my_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jayz/Desktop/tunnel/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/my_tests.dir/rule
+
+# Convenience name for target.
+my_tests: tests/CMakeFiles/my_tests.dir/rule
+.PHONY : my_tests
+
+# codegen rule for target.
+tests/CMakeFiles/my_tests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_tests.dir/build.make tests/CMakeFiles/my_tests.dir/codegen
+.PHONY : tests/CMakeFiles/my_tests.dir/codegen
+
+# clean rule for target.
+tests/CMakeFiles/my_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/my_tests.dir/build.make tests/CMakeFiles/my_tests.dir/clean
+.PHONY : tests/CMakeFiles/my_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

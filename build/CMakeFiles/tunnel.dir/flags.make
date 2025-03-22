@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/jayz/Desktop/tunnel/include
 
-CXX_FLAGS = -std=gnu++23 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -std=gnu++23
 
