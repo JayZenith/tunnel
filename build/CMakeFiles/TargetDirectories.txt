@@ -1,8 +1,0 @@
-/home/jayz/Desktop/tunnel/build/CMakeFiles/tunnel.dir
-/home/jayz/Desktop/tunnel/build/CMakeFiles/test.dir
-/home/jayz/Desktop/tunnel/build/CMakeFiles/edit_cache.dir
-/home/jayz/Desktop/tunnel/build/CMakeFiles/rebuild_cache.dir
-/home/jayz/Desktop/tunnel/build/tests/CMakeFiles/my_tests.dir
-/home/jayz/Desktop/tunnel/build/tests/CMakeFiles/test.dir
-/home/jayz/Desktop/tunnel/build/tests/CMakeFiles/edit_cache.dir
-/home/jayz/Desktop/tunnel/build/tests/CMakeFiles/rebuild_cache.dir
