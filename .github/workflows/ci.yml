@@ -19,7 +19,7 @@ jobs:
       run: mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Werror" ..
       
     - name: Build
-       run: cmake --build && make
+      run: cmake --build . && make
       
     - name: Test
       working-directory: ${{github.workspace}}/build
