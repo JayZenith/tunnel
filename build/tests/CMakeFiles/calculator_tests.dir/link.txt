@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file,CMakeFiles/calculator_tests.dir/link.d CMakeFiles/calculator_tests.dir/calculator_test.cpp.o -o calculator_tests  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread -lyour_calculator_lib
