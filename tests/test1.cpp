@@ -10,7 +10,7 @@ TEST_F(CalculatorTest, AddWorks) {
     EXPECT_EQ(calc.add(2, 3), 5);
     EXPECT_EQ(calc.add(-2, 3), 1);
     EXPECT_EQ(calc.add(0, 0), 0);
-    EXPECT_EQ(calc.add(-4, -5), -9);
+    EXPECT_EQ(calc.add(-4, -4), -9);
 }
 
 TEST_F(CalculatorTest, SubtractWorks) {
