@@ -1,0 +1,6 @@
+CalculatorTest.AddWorks 1 0.00749442
+CalculatorTest.SubtractWorks 1 0.00984574
+CalculatorTest.MultiplyWorks 1 0.00793938
+CalculatorTest.DivideWorks 1 0.00914363
+my_tests 1 0.0088901
+---
