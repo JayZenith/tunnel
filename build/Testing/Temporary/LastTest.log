@@ -1,10 +1,10 @@
-Start testing: Mar 21 21:35 PDT
+Start testing: Mar 21 22:39 PDT
 ----------------------------------------------------------
 1/5 Testing: CalculatorTest.AddWorks
 1/5 Test: CalculatorTest.AddWorks
 Command: "/home/jayz/Desktop/tunnel/build/tests/my_tests" "--gtest_filter=CalculatorTest.AddWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/jayz/Desktop/tunnel/build/tests
-"CalculatorTest.AddWorks" start time: Mar 21 21:35 PDT
+"CalculatorTest.AddWorks" start time: Mar 21 22:39 PDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CalculatorTest.AddWorks
@@ -22,7 +22,7 @@ Note: Google Test filter = CalculatorTest.AddWorks
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.AddWorks" end time: Mar 21 21:35 PDT
+"CalculatorTest.AddWorks" end time: Mar 21 22:39 PDT
 "CalculatorTest.AddWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/5 Test: CalculatorTest.SubtractWorks
 Command: "/home/jayz/Desktop/tunnel/build/tests/my_tests" "--gtest_filter=CalculatorTest.SubtractWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/jayz/Desktop/tunnel/build/tests
-"CalculatorTest.SubtractWorks" start time: Mar 21 21:35 PDT
+"CalculatorTest.SubtractWorks" start time: Mar 21 22:39 PDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CalculatorTest.SubtractWorks
@@ -48,7 +48,7 @@ Note: Google Test filter = CalculatorTest.SubtractWorks
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.SubtractWorks" end time: Mar 21 21:35 PDT
+"CalculatorTest.SubtractWorks" end time: Mar 21 22:39 PDT
 "CalculatorTest.SubtractWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/5 Test: CalculatorTest.MultiplyWorks
 Command: "/home/jayz/Desktop/tunnel/build/tests/my_tests" "--gtest_filter=CalculatorTest.MultiplyWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/jayz/Desktop/tunnel/build/tests
-"CalculatorTest.MultiplyWorks" start time: Mar 21 21:35 PDT
+"CalculatorTest.MultiplyWorks" start time: Mar 21 22:39 PDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CalculatorTest.MultiplyWorks
@@ -74,7 +74,7 @@ Note: Google Test filter = CalculatorTest.MultiplyWorks
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.MultiplyWorks" end time: Mar 21 21:35 PDT
+"CalculatorTest.MultiplyWorks" end time: Mar 21 22:39 PDT
 "CalculatorTest.MultiplyWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/5 Test: CalculatorTest.DivideWorks
 Command: "/home/jayz/Desktop/tunnel/build/tests/my_tests" "--gtest_filter=CalculatorTest.DivideWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/jayz/Desktop/tunnel/build/tests
-"CalculatorTest.DivideWorks" start time: Mar 21 21:35 PDT
+"CalculatorTest.DivideWorks" start time: Mar 21 22:39 PDT
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CalculatorTest.DivideWorks
@@ -100,7 +100,7 @@ Note: Google Test filter = CalculatorTest.DivideWorks
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.DivideWorks" end time: Mar 21 21:35 PDT
+"CalculatorTest.DivideWorks" end time: Mar 21 22:39 PDT
 "CalculatorTest.DivideWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/5 Test: my_tests
 Command: "/home/jayz/Desktop/tunnel/build/tests/my_tests"
 Directory: /home/jayz/Desktop/tunnel/build/tests
-"my_tests" start time: Mar 21 21:35 PDT
+"my_tests" start time: Mar 21 22:39 PDT
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -131,8 +131,8 @@ Output:
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"my_tests" end time: Mar 21 21:35 PDT
+"my_tests" end time: Mar 21 22:39 PDT
 "my_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 21 21:35 PDT
+End testing: Mar 21 22:39 PDT
