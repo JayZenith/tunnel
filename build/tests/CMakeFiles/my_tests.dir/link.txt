@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file,CMakeFiles/my_tests.dir/link.d CMakeFiles/my_tests.dir/test1.cpp.o CMakeFiles/my_tests.dir/main.cpp.o -o my_tests  ../libtunnel.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a

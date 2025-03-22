@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtunnel.a CMakeFiles/tunnel.dir/src/main.cpp.o CMakeFiles/tunnel.dir/src/calculator.cpp.o
-/usr/bin/ranlib libtunnel.a
